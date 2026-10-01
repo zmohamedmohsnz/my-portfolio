@@ -11,6 +11,7 @@ import bmiCalculatorImg from '../assets/bmi-calculator.png';
 import pythonCalculatorImg from '../assets/python-calculator.png';
 import htmlCssProjectImg from '../assets/html-css-project.png';
 import phoneStoreInventoryImg from '../assets/phone-store-inventory.png';
+import pixsolveMainDesignImg from '../assets/pixsolve-main-design.png';
 
 export const profile = {
   name: 'Mohamed Mohsen',
@@ -112,6 +113,18 @@ export const certifications = [
 export const projectCategories = ['All', 'Web', 'Other'];
 
 export const projects = [
+  {
+    id: 'pixsolve',
+    name: 'PixSolve',
+    category: 'Web',
+    type: 'Full-Stack Image Processing App',
+    year: 2026,
+    description: 'Image-processing app for resizing, compressing, and converting uploads through asynchronous jobs, with optional accounts, processing history, documented APIs, and a Dockerized backend stack.',
+    tags: ['React', 'Express', 'MongoDB', 'BullMQ', 'Sharp'],
+    image: pixsolveMainDesignImg,
+    githubUrl: 'https://github.com/zmohamedmohsnz/pixsolve',
+    liveUrl: 'https://pixsolve.org',
+  },
   {
     id: 'phone-store',
     name: 'Phone Store Management App',
